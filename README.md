@@ -63,3 +63,13 @@ Dengan adanya kombinasi getter dan setter ini, prinsip encapsulation benar-benar
 * Subclass: Lipstick.java dan Foundation.java
 
   Kedua class ini mewarisi (extends) class AlatMakeup. Artinya, Lipstick dan Foundation otomatis punya semua atribut dan method dari AlatMakeup, lalu menambahkan atribut khusus masing-masing, seperti warna untuk lipstick dan shade untuk foundation.
+
+<img width="976" height="449" alt="image" src="https://github.com/user-attachments/assets/f8135d79-d11d-4356-b2c0-605d21ed101b" />
+
+1. public class Lipstick extends AlatMakeup: baris ini menunjukkan bahwa Lipstick adalah subclass yang mewarisi semua atribut dan method dari superclass AlatMakeup. Jadi, Lipstick otomatis punya atribut nama, jenis, merk, dan jumlah tanpa perlu mendeklarasikan ulang.
+2. super(nama, jenis, merk, jumlah); kode ini memanggil constructor dari superclass (AlatMakeup) agar atribut dasar bisa langsung diinisialisasi. Setelah itu, Lipstick menambahkan atribut khusus yaitu warna.
+3. public String getWarna() dan public void setWarna(String warna): ini adalah getter dan setter khusus untuk atribut tambahan warna.
+4. public String toString(): method ini menampilkan data Lipstick dengan cara menggabungkan hasil dari super.info() (dari superclass) dengan atribut tambahan warna. Ini juga termasuk contoh overriding, karena toString() di sini menyesuaikan output khusus subclass.
+
+Jadi file ini adalah salah satu penerapan inherintance, karena dia mewarisi AlatMakeup sekaligus menambahkan fitur khusus.
+
