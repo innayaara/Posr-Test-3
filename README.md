@@ -30,5 +30,26 @@ Fitur Utama:
      
    * Memanfaatkan encapsulation (getter & setter) dalam pengelolaan data
      
-2.  
-3. Lihat Koleksi
+2.  Lihat Koleksi
+
+   * Menampilkan seluruh daftar koleksi alat makeup.
+     
+   * Menghitung total jumlah alat makeup.
+     
+   * Menampilkan informasi tambahan sesuai subclass dengan method overriding.
+     
+3. Ubah Koleksi
+
+   * Pengguna dapat memperbarui data koleksi tertentu.
+     
+5. Hapus Koleksi
+
+   * Menghapus data koleksi yang dipilih dari daftar.
+   
+7. Cari Koleksi
+
+   * Mencari alat makeup berdasarkan nama atau merk
+  
+6. Keluar Program
+
+   * Menghentikan jalannya program
