@@ -52,6 +52,8 @@ Class AlatMakeup menerapkan prinsip encapsulation dengan cara membuat semua atri
 
 Dengan adanya kombinasi getter dan setter ini, prinsip encapsulation benar-benar diterapkan. Data tetap aman karena atribut tidak bisa diakses langsung dari luar, tetapi tetap fleksibel untuk dibaca dan diubah melalui method khusus.
 
+## Menerapkan inheritance (minimal memiliki 1 superclass dengan 2 subclass)
+
 <img width="566" height="73" alt="image" src="https://github.com/user-attachments/assets/95756290-1225-418d-b9bf-3e2532f69c3a" />
 
 * Superclass: AlatMakeup.java
