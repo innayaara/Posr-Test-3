@@ -51,3 +51,13 @@ Class AlatMakeup menerapkan prinsip encapsulation dengan cara membuat semua atri
 * Sedangkan setter digunakan untuk mengubah atau memperbarui nilai atribut, seperti setNama(String nama), setJenis(String jenis), setMerk(String merk), dan setJumlah(int jumlah). Penggunaan setter ini membuat perubahan data menjadi lebih terkontrol, karena programmer bisa menambahkan aturan atau validasi di dalamnya bila diperlukan
 
 Dengan adanya kombinasi getter dan setter ini, prinsip encapsulation benar-benar diterapkan. Data tetap aman karena atribut tidak bisa diakses langsung dari luar, tetapi tetap fleksibel untuk dibaca dan diubah melalui method khusus.
+
+<img width="566" height="73" alt="image" src="https://github.com/user-attachments/assets/95756290-1225-418d-b9bf-3e2532f69c3a" />
+
+* Superclass: AlatMakeup.java
+
+  Ini adalah class induk yang punya atributd asar (nama, jenis, merk, jumlah) dan sudah dilengkapi constructor, getter, dan setter
+
+* Subclass: Lipstick.java dan Foundation.java
+
+  Kedua class ini mewarisi (extends) class AlatMakeup. Artinya, Lipstick dan Foundation otomatis punya semua atribut dan method dari AlatMakeup, lalu menambahkan atribut khusus masing-masing, seperti warna untuk lipstick dan shade untuk foundation.
