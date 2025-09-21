@@ -27,3 +27,13 @@ Fitur Utama:
 4. **Hapus Koleksi**: Menghapus data koleksi dari daftar
 5. **Cari Koleksi**: Mencari data koleksi berdasarkan nama alat.
 6. **Keluar Program**: Menghentikan jalannya program
+
+# Struktur Packages 
+
+Program ini menggunakan pola MVC (Model-View-Controller) agar kode lebih terstruktur, mudah dipelihara, dan jelas pembagian fungsinya.
+
+* **main**: berisi Main.java sebagai titik masuk program yang menampilkan menu dan menerima input pengguna
+  
+* **model**: berisi class data Alat Makeup.java sebagai superclass dari nama, jenis, merk, dan jumlah. Lipstick.java dan Foundation.java sebagai subclass dengan atribut khusus yaitu warna dan shade.
+  
+* **service**: berisi KoleksiService.java yang mengatur logika CRUD, validasi input, dan fitur pencarian.
