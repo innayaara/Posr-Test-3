@@ -43,3 +43,11 @@ Program ini menggunakan pola MVC (Model-View-Controller) agar kode lebih terstru
 <img width="817" height="300" alt="Screenshot 2025-09-21 191317" src="https://github.com/user-attachments/assets/440e6939-61f1-4354-a833-dec43bd3253a" />
 
 Class AlatMakeup menerapkan prinsip encapsulation dengan cara membuat semua atribut (nama, jenis, merk, dan jumlah) menggunakan modifier private. Dengan begitu atribut ini tidak bisa diakses langsung dari luar class, sehingga data lebih aman. Selain itu, class ini juga memiliki constructor yang berfungsi untuk menginisialisasi objek saat pertama kali dibuat. Constructor menerima parameter (String nama, String jenis, String merk, dan int jumlah) yang kemudian disimpan melalui keyword this. Dengan adanya constructor ini, setiap kali objek AlatMakeup dibuat, datanya langsung terisi dengan lengkap sesuai input yang diberikan.
+
+<img width="726" height="538" alt="image" src="https://github.com/user-attachments/assets/ace5810a-da71-4ba2-a634-90082f48fe35" />
+
+* Getter berfungsi untuk mengambil nilai atribut yang sifatnya private, seperti getNama(), getJenis(), getMerk(), dan getJumlah(). Dengan getter, data bisa dibaca dari luar class tanpa harus mengakses atribut secara langsung.
+
+* Sedangkan setter digunakan untuk mengubah atau memperbarui nilai atribut, seperti setNama(String nama), setJenis(String jenis), setMerk(String merk), dan setJumlah(int jumlah). Penggunaan setter ini membuat perubahan data menjadi lebih terkontrol, karena programmer bisa menambahkan aturan atau validasi di dalamnya bila diperlukan
+
+Dengan adanya kombinasi getter dan setter ini, prinsip encapsulation benar-benar diterapkan. Data tetap aman karena atribut tidak bisa diakses langsung dari luar, tetapi tetap fleksibel untuk dibaca dan diubah melalui method khusus.
