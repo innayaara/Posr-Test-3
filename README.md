@@ -25,7 +25,9 @@ Fitur Utama:
 1. Tambah Koleksi
 
    * Pengguna dapat menambahkan data baru
+     
    * Mendukung subclass: Lipstick (warna) dan Foudation (shade)
+     
    * Memanfaatkan encapsulation (getter & setter) dalam pengelolaan data
      
 2.  
