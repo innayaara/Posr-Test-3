@@ -37,3 +37,9 @@ Program ini menggunakan pola MVC (Model-View-Controller) agar kode lebih terstru
 * **model**: berisi class data Alat Makeup.java sebagai superclass dari nama, jenis, merk, dan jumlah. Lipstick.java dan Foundation.java sebagai subclass dengan atribut khusus yaitu warna dan shade.
   
 * **service**: berisi KoleksiService.java yang mengatur logika CRUD, validasi input, dan fitur pencarian.
+
+## Menerapkan encapsulation (getter dan setter)
+
+<img width="817" height="300" alt="Screenshot 2025-09-21 191317" src="https://github.com/user-attachments/assets/440e6939-61f1-4354-a833-dec43bd3253a" />
+
+Class AlatMakeup menerapkan prinsip encapsulation dengan cara membuat semua atribut (nama, jenis, merk, dan jumlah) menggunakan modifier private. Dengan begitu atribut ini tidak bisa diakses langsung dari luar class, sehingga data lebih aman. Selain itu, class ini juga memiliki constructor yang berfungsi untuk menginisialisasi objek saat pertama kali dibuat. Constructor menerima parameter (String nama, String jenis, String merk, dan int jumlah) yang kemudian disimpan melalui keyword this. Dengan adanya constructor ini, setiap kali objek AlatMakeup dibuat, datanya langsung terisi dengan lengkap sesuai input yang diberikan.
