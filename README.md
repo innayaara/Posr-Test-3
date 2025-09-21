@@ -28,7 +28,7 @@ Fitur Utama:
 5. **Cari Koleksi**: Mencari data koleksi berdasarkan nama alat.
 6. **Keluar Program**: Menghentikan jalannya program
 
-# Struktur Packages 
+## Struktur Packages 
 
 Program ini menggunakan pola MVC (Model-View-Controller) agar kode lebih terstruktur, mudah dipelihara, dan jelas pembagian fungsinya.
 
