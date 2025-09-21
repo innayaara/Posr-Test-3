@@ -19,3 +19,14 @@ Data yang dicatat meliputi:
 * Jumlah
 
 * Atribut tambahan sesuai subclass (contoh: warna lipstick, shade foundation).
+
+Fitur Utama:
+
+1. Tambah Koleksi
+
+   * Pengguna dapat menambahkan data baru
+   * Mendukung subclass: Lipstick (warna) dan Foudation (shade)
+   * Memanfaatkan encapsulation (getter & setter) dalam pengelolaan data
+     
+2.  
+3. Lihat Koleksi
