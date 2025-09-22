@@ -89,9 +89,21 @@ Saat program pertama kali dijalankan, sistem akan langsung menampilkan menu utam
 
 ## 1. Tambah Koleksi
 
-<img width="461" height="307" alt="image" src="https://github.com/user-attachments/assets/36267c6b-f627-4d59-aadd-7fce7ad4b57c" />
+<img width="403" height="308" alt="image" src="https://github.com/user-attachments/assets/64260f4b-e4ca-4be4-b076-ea633ed55d63" />
 
-Jika pengguna memilih opsi 1. Tambah Koleksi, program akan meminta pengguna untuk mengisi data alat makeup yang ingin dimasukkan ke dalam daftar koleksi. Setelah semua data dimasukkan dengan benar, program akan menyimpan informasi tersebut ke dalam ArrayList dan menampilkan pesan "Koleksi berhasil ditambahkan!". Data alat makeup baru akan tersimpan dan bisa dilihat kembali melalui menu Lihat Koleksi.
+Jika pengguna memilih opsi 1. Tambah Koleksi, maka program akan menampilkan pilihan jenis koleksi alat makeup yang tersedia, yaitu Alat Makeup Umum, Lipstick, dan Foundation.
+
+<img width="502" height="414" alt="Screenshot 2025-09-22 193040" src="https://github.com/user-attachments/assets/e9b18c34-a335-4052-9868-035a143cd10c" />
+
+Opsi 1. Alat Makeup Umum, program akan meminta input data berupa nama alat makeup, jenis alat, merk, dan jumlah. Data yang sudah dimasukkan akan disimpan ke dalam koleksi sesuai kategori yang dipilih. Setelah itu, program memberikan notifikasi bahwa koleksi berhasil ditambahkan.
+
+<img width="474" height="246" alt="Screenshot 2025-09-22 194734" src="https://github.com/user-attachments/assets/7c5c0aed-5069-4048-bc9f-9959da13aa13" />
+
+Opsi 2. Lipstick, maka program akan meminta pengguna untuk memasukkan beberapa data yang lebih spesifik, yaitu nama alat makeup, jenis alat makeup, merk, jumlah, serta warna lipstick. Setelah semua data dimasukkan dengan lengkap, program akan menyimpan data tersebut ke dalam koleksi kategori lipstick. Selanjutnya, program memberikan notifikasi bahwa koleksi lipstick berhasil ditambahkan.
+
+<img width="488" height="236" alt="image" src="https://github.com/user-attachments/assets/ae716e14-b97c-421b-8722-c9f01fdba170" />
+
+opsi 3. Foundation, maka program akan meminta pengguna untuk mengisi beberapa informasi penting, yaitu nama alat makeup, jenis alat makeup, merk, jumlah, serta shade foundation. Setelah data tersebut dimasukkan dengan benar, program akan menyimpannya ke dalam koleksi kategori foundation. Program kemudian menampilkan pesan bahwa koleksi foundation berhasil ditambahkan.
 
 <img width="387" height="257" alt="image" src="https://github.com/user-attachments/assets/a0fb64c5-fb49-4dcc-920a-224b6e19b3d6" />
 
@@ -99,7 +111,7 @@ Saat pengguna diminta memasukkan Nama Alat Makeup, pengguna menekan enter tanpa 
 
 ## 2. Lihat Koleksi
 
-<img width="648" height="291" alt="image" src="https://github.com/user-attachments/assets/05f1adac-5451-46a9-9901-6cd1479c5be6" />
+<img width="907" height="330" alt="image" src="https://github.com/user-attachments/assets/2a59c7ba-ce42-4f24-baec-a6787671d765" />
 
 Jika pengguna memilih opsi 2. Lihat Koleksi, program akan menampilkan seluruh daftar alat makeup yang sudah tersimpan.
 
@@ -132,3 +144,10 @@ Jika pengguna memilih opsi 5, maka program akan meminta kata kunci pencarian dar
 <img width="523" height="245" alt="image" src="https://github.com/user-attachments/assets/3b610936-5e2b-453e-b22d-616a7b452ed8" />
 
 Apabila pengguna memasukkan kata kunci koleksi yang tidak tersedia, program akan menampilkan pesan "Koleksi tidak ditemukan!" sebagai bentuk validasi agar pengguna tidak bisa mengubah koleksi yang tidak ada.
+
+## 6. Keluar
+
+<img width="415" height="225" alt="image" src="https://github.com/user-attachments/assets/e3ed6f06-f3c8-4947-b2bc-315f2362d2a9" />
+
+Jika pengguna memilih opsi 6, maka program telah selesai
+
